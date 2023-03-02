@@ -1,25 +1,24 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jate App Using IDB",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
     "start": "",
-    "server": "",
+    "server": "cd server && npm run server",
     "build": "",
     "install": "",
     "client": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "KlyDesign // Kyle Hipple",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^5.2.0"
   }
 }

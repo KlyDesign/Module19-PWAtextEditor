@@ -1,0 +1,19 @@
+To Do: all in one place 
+
+package.json(root) //fix npm scripts to run correct node files and commands
+
+server 
+    added --watch instead of nodemon because it is supported and i prefer bc its lighter
+
+client 
+    package.json // fix npm scripts to run correct node files and commands
+    SRC 
+        src-sw.js // service worker fix
+        JS
+            install.js 
+                add event handler to the beforeinstallprompt
+                add click listener for butinstall element 
+                add handler to confirm install
+            database.js 
+                add logic to putDb funciton 
+                add logic to getDb function
