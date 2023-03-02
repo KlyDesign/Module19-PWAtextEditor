@@ -1,15 +1,15 @@
 {
-  "name": "JATE",
+  "name": "jate-app",
   "version": "1.0.0",
   "description": "Jate App Using IDB",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "cd server && npm run server",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && node run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server && npm run server --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "KlyDesign // Kyle Hipple",
