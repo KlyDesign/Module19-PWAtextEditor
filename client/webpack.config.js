@@ -31,7 +31,6 @@ module.exports = () => {
         swDest: 'src-sw.js',
       }),
     ],
-
     module: {
       rules: [
         {

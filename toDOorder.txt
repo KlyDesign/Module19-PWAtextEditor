@@ -10,14 +10,14 @@ x       package.json // fix npm scripts to run correct node files and commands (
 x       webpack.config.js // update webpack file (done)
 
 
-        src-sw.js // asset caching
+  !     src-sw.js // asset caching register route
 
         SRC 
             JS
-                install.js 
+  !             install.js 
                     add event handler to the beforeinstallprompt
                     add click listener for butinstall element 
                     add handler to confirm install
-                database.js 
-                    add logic to putDb funciton 
-                    add logic to getDb function
+  !             database.js 
+x                   add logic to putDb funciton (done)
+x                   add logic to getDb function  (done)
