@@ -18,8 +18,9 @@ export const putDb = async (content) => {
   const db = await openDB('jate', 1);
   const jateSpec = db.transaction('jate', 'readwrite');
   const store = jateSpec.objectStore('jate'); 
-  const request = await store.add(content);
+  const request = await store.put({id : 1, value: content});
   console.log('💾 Data save to DataBase', request);
+  await jateSpec.done;
   return request;
 }
 // TODO: Add logic for a method that gets all the content from the database
@@ -29,8 +30,9 @@ export const getDb = async () => {
   const jateSpec = db.transaction('jate', 'readonly');
   const store = jateSpec.objectStore('jate');
   const request = await store.getAll();
-  console.log('💾 Data get from DataBase', request);
-  return request;
+  console.log('💾 Data get from DataBase', request.value);
+  await jateSpec.done;
+  return request.value;
 }
 
 initdb();
