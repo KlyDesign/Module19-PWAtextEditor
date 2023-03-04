@@ -32,7 +32,7 @@ npm run start // to start app
 
 ## Screenshots
 ### IDB Screenshot
-### ![IDB](/assets/IDBvalues.jpg "Screenshot")
+### ![IDB](./assets/IDBvalues.jpg "Screenshot")
 ### Manifest Screenshot
 ### ![Manifest](/assets/ManifestFile.jpg "Screenshot")
 ### Service Worker Screenshot
