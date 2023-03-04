@@ -17,14 +17,27 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
-//help from mini-project in PWA number section 28 and peer help
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Text Editor',
       }),
-      //figure out webpack pwa manifest docs
-      //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'Jate',
+        short_name: 'test from miniProject',
+        description: 'test from miniProject',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: '/',
+        publicPath: '/',
+        icons: {
+          src: path.resolve('src/images/logo.png'),
+          sizes: [96, 128, 192, 256, 384, 512],
+          destination: path.join('assets', 'icons'),
+        }
+      }),
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
