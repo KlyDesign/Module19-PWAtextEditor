@@ -34,9 +34,9 @@ npm run start // to start app
 ### IDB Screenshot
 ### ![IDB](./assets/IDBvalues.jpg "Screenshot")
 ### Manifest Screenshot
-### ![Manifest](/Module19-PWAtextEditor/assets/ManifestFile.jpg "Screenshot")
+### ![Manifest](/assets/ManifestFile.jpg "Screenshot")
 ### Service Worker Screenshot
-### ![Service Worker](/Module19-PWAtextEditor/assets/serviceWorker.jpg "Screenshot")
+### ![Service Worker](/assets/serviceWorker.jpg "Screenshot")
 
 ## License
 ### The MIT License  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
