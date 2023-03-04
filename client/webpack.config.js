@@ -19,7 +19,6 @@ module.exports = () => {
     },
 //help from mini-project in PWA number section 28 and peer help
     plugins: [
-
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Text Editor',
