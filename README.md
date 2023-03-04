@@ -32,7 +32,7 @@ npm run start // to start app
 
 ## Screenshots
 ### IDB Screenshot
-### ![IDB](/Module19-PWAtextEditor/assets/IDBvalues.jpg "Screenshot")
+### ![IDB](/assets/IDBvalues.jpg "Screenshot")
 ### Manifest Screenshot
 ### ![Manifest](/Module19-PWAtextEditor/assets/ManifestFile.jpg "Screenshot")
 ### Service Worker Screenshot
