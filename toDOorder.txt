@@ -10,14 +10,14 @@ x       package.json // fix npm scripts to run correct node files and commands (
 x       webpack.config.js // update webpack file (done)
 
 
-  !     src-sw.js // asset caching register route
+x       src-sw.js // asset caching register route used mini project for ref
 
         SRC 
             JS
-  !             install.js 
-                    add event handler to the beforeinstallprompt
-                    add click listener for butinstall element 
-                    add handler to confirm install
-  !             database.js 
+x               install.js 
+x                   add event handler to the beforeinstallprompt
+x                   add click listener for butinstall element 
+open                add handler to confirm install // issues with event so I wrote my own function
+x               database.js 
 x                   add logic to putDb funciton (done)
 x                   add logic to getDb function  (done)
