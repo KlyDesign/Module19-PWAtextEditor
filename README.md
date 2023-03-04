@@ -36,7 +36,7 @@ npm run start // to start app
 ### Manifest Screenshot
 ### ![Manifest](/assets/ManifestFile.jpg "Screenshot")
 ### Service Worker Screenshot
-### ![Service Worker](/assets/serviceWorker.jpg "Screenshot")
+### ![Service Worker](/assets/ServiceWorker.jpg "Screenshot")
 
 ## License
 ### The MIT License  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
